@@ -17,19 +17,11 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link to="home-section" smooth={true} duration={1000}>
-                Home
-              </Nav.Link>
+              <Nav.Link to="home-section">Home</Nav.Link>
 
-              <Nav.Link to="explore" smooth={true} duration={1000}>
-                Explore
-              </Nav.Link>
-              <Nav.Link to="create" smooth={true} duration={1000}>
-                Create
-              </Nav.Link>
-              <Nav.Link to="share" smooth={true} duration={1000}>
-                Share
-              </Nav.Link>
+              <Nav.Link to="explore">Explore</Nav.Link>
+              <Nav.Link to="create">Create</Nav.Link>
+              <Nav.Link to="share">Share</Nav.Link>
 
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action 1</NavDropdown.Item>

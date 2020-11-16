@@ -5,7 +5,6 @@ import img2 from "../Assets/image2.jpg";
 import img3 from "../Assets/image3.jpg";
 
 const Carrousel = () => {
-  const dir3 = `${img3}/800x400?text=Second slide&bg=282c34`;
   return (
     <Carousel>
       <Carousel.Item>
@@ -53,7 +52,3 @@ const Carrousel = () => {
 };
 
 export default Carrousel;
-
-/*
-src="holder.js/800x400?text=Second slide&bg=282c34"
-*/
