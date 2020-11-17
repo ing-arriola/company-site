@@ -1,11 +1,13 @@
 import React from "react";
 
-import { Container, Col, Row, Button } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 const SectionHeader = ({ background, title }) => {
   return (
     <div
-      style={{ backgroundImage: `url(${background})` }}
-      className="text-light"
+      style={{
+        backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(${background})`,
+      }}
+      className="text-light header "
     >
       <Container>
         <Row>
