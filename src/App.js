@@ -7,6 +7,7 @@ import Home from "./Containers/Home";
 import VideoContainer from "./Containers/VideoContainer";
 import Gallery from "./Components/Gallery";
 import NewsLetter from "./Components/NewsLetter";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <VideoContainer />
       <Gallery />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
