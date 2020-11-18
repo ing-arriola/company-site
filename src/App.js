@@ -6,6 +6,7 @@ import IconSection from "./Containers/IconSection";
 import Home from "./Containers/Home";
 import VideoContainer from "./Containers/VideoContainer";
 import Gallery from "./Components/Gallery";
+import NewsLetter from "./Components/NewsLetter";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Home />
       <VideoContainer />
       <Gallery />
+      <NewsLetter />
     </div>
   );
 }
