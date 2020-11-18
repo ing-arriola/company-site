@@ -5,6 +5,7 @@ import Carrousel from "./Components/Carrousel";
 import IconSection from "./Containers/IconSection";
 import Home from "./Containers/Home";
 import VideoContainer from "./Containers/VideoContainer";
+import Gallery from "./Components/Gallery";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <IconSection />
       <Home />
       <VideoContainer />
+      <Gallery />
     </div>
   );
 }
