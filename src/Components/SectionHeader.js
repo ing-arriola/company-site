@@ -16,7 +16,7 @@ const SectionHeader = ({ background, title }) => {
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non
               temporibus impedit natus, possimus molestias excepturi officiis
-              libero iure cupiditate voluptatem ullam quod sequi delectus?{" "}
+              libero iure cupiditate voluptatem ullam quod sequi delectus?
             </p>
           </Col>
         </Row>

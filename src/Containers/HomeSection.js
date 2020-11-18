@@ -3,7 +3,7 @@ import lights from "../Assets/lights.jpg";
 import lapImage from "../Assets/laptop.png";
 import SectionHeader from "../Components/SectionHeader";
 import SectionBody from "../Components/SectionBody";
-const Home = () => {
+const HomeSection = () => {
   return (
     <section>
       <SectionHeader
@@ -16,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeSection;
