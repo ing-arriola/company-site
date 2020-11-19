@@ -1,25 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
+//nav-link
 const NavigationBar = () => {
   return (
     <div>
       <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container>
-          <Nav.Link
-            className="navbar-brand cursor "
+          <Link
+            className="navbar-brand cursor nav-link"
             to="home-section"
             smooth={true}
             duration={1000}
           >
             Jarriola
-          </Nav.Link>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              <Nav.Link to="home-section">Home</Nav.Link>
+            <Nav className="ml-auto ">
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
 
-              <Nav.Link to="explore">About</Nav.Link>
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
               <Nav.Link to="create">Services</Nav.Link>
               <Nav.Link to="share">Blog</Nav.Link>
 

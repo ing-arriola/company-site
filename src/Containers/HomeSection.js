@@ -9,6 +9,9 @@ const HomeSection = () => {
       <SectionHeader
         background={lights}
         title="Are you ready to get started?"
+        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non
+        temporibus impedit natus, possimus molestias excepturi officiis
+        libero iure cupiditate voluptatem ullam quod sequi delectus?"
         outline="outline-primary"
       />
       <SectionBody image={lapImage} title="Lorem Ipsum" />

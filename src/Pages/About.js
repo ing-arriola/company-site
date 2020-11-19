@@ -3,10 +3,11 @@ import SectionHeader from "../Components/SectionHeader";
 import image from "../Assets/image1.jpg";
 const About = () => {
   return (
-    <div>
+    <div className="mt-5">
       <SectionHeader
         background={image}
-        title="Are you ready to get started?"
+        title="About Us"
+        text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, soluta."
         outline="outline-primary"
       />
     </div>
