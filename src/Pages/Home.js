@@ -10,7 +10,16 @@ const Home = () => {
   return (
     <div>
       <Carrousel />
-      <IconSection />
+      <IconSection
+        icons={[
+          { name: "FaCog", title: "Working", background: "bg-light" },
+          { name: "FaCloud", title: "Storage", background: "bg-light" },
+          { name: "FaCartPlus", title: "Buying", background: "bg-light" },
+        ]}
+        color="text-dark"
+        padding="py-5"
+      />
+
       <HomeSection />
       <VideoContainer />
       <Gallery />

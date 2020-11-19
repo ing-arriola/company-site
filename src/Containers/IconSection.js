@@ -2,14 +2,19 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import ColumIcon from "../Components/ColumIcon";
 
-const IconSection = () => {
+const IconSection = (props) => {
   return (
-    <section id="home-icons" className="py-5">
+    <section id="home-icons" className={props.padding}>
       <Container>
         <Row>
-          <ColumIcon icon="FaCog" title="Working" />
-          <ColumIcon icon="FaCloud" title="Storage" />
-          <ColumIcon icon="FaCartPlus" title="Buying" />
+          {props.icons.map((icon) => (
+            <ColumIcon
+              icon={icon.name}
+              title={icon.title}
+              background={icon.background}
+              color={props.color}
+            />
+          ))}
         </Row>
       </Container>
     </section>
