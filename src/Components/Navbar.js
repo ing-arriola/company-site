@@ -26,7 +26,9 @@ const NavigationBar = () => {
               <Link to="/about" className="nav-link">
                 About
               </Link>
-              <Nav.Link to="create">Services</Nav.Link>
+              <Link to="/Services" className="nav-link">
+                Services
+              </Link>
               <Nav.Link to="share">Blog</Nav.Link>
 
               <NavDropdown title="More" id="basic-nav-dropdown">

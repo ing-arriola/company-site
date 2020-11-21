@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row, Button, Image } from "react-bootstrap";
+
 const SectionBody = ({ title, image }) => {
   return (
     <div>
