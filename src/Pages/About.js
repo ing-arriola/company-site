@@ -3,6 +3,7 @@ import SectionHeader from "../Components/SectionHeader";
 import image from "../Assets/image1.jpg";
 import TextImage from "../Components/About/TextImage";
 import IconSection from "../Containers/IconSection";
+import QuoteCarrousel from "../Components/QuouteCarrousel";
 const About = () => {
   return (
     <div className="mt-5">
@@ -33,6 +34,7 @@ const About = () => {
         ]}
         color="text-light"
       />
+      <QuoteCarrousel />
     </div>
   );
 };
