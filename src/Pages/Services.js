@@ -2,6 +2,7 @@ import React from "react";
 import SectionHeader from "../Components/SectionHeader";
 import servicesImage from "../Assets/image3.jpg";
 import ColumnsSection from "../Components/Services/ColumnsSection";
+import FaqContainer from "../Containers/FaqContainer";
 
 const Services = () => {
   const features = [1, 2, 3];
@@ -14,6 +15,7 @@ const Services = () => {
         outline="outline-primary"
       />
       <ColumnsSection features={features} />
+      <FaqContainer />
     </div>
   );
 };
