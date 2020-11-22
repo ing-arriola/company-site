@@ -7,3 +7,13 @@ body {
   background-attachment: fixed; /*kind of parallax effect*/
   background-size: cover;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.header-images {
+  filter: brightness(55%);
+}

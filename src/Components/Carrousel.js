@@ -1,19 +1,20 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import img1 from "../Assets/image1.jpg";
-import img2 from "../Assets/image2.jpg";
-import img3 from "../Assets/image3.jpg";
+import img1 from "../Assets/carrousel/img-1.jpg";
+import img2 from "../Assets/carrousel/img-2.jpg";
+import img3 from "../Assets/carrousel/img-3.jpg";
 
 const Carrousel = () => {
   return (
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 header-images "
           src={img1}
           height="500"
           alt="First slide"
         />
+
         <Carousel.Caption className="d-none d-lg-block">
           <h3 className="display-3">First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -21,7 +22,7 @@ const Carrousel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 header-images"
           src={img2}
           height="500"
           alt="Third slide"
@@ -34,7 +35,7 @@ const Carrousel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 header-images"
           src={img3}
           height="500"
           alt="Third slide"

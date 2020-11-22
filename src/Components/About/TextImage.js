@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import img from "../../Assets/blog.jpg";
 
 const TextImage = () => {
   return (
@@ -27,12 +30,15 @@ const TextImage = () => {
             </p>
           </Col>
           <Col lg={6} className="my-auto d-none d-lg-block ">
-            <Image
-              src="https://source.unsplash.com/random/300x300/?javascript"
-              fluid
-              className=" mx-auto"
-              roundedCircle
-            ></Image>
+            <LazyLoadImage
+              alt={"whaterever"}
+              effect="blur"
+              src="https://source.unsplash.com/random/300x300/?restaurant"
+              placeholderSrc={img}
+              height={300}
+              width={300}
+              className="mx-auto img-fluid rounded-circle"
+            />
           </Col>
         </Row>
       </Container>
