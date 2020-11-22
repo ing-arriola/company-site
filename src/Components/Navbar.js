@@ -29,7 +29,9 @@ const NavigationBar = () => {
               <Link to="/Services" className="nav-link">
                 Services
               </Link>
-              <Nav.Link to="share">Blog</Nav.Link>
+              <Link to="/blog" className="nav-link">
+                Blog
+              </Link>
 
               <NavDropdown title="More" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action 1</NavDropdown.Item>
