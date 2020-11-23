@@ -14,7 +14,7 @@ const NavigationBar = () => {
             smooth={true}
             duration={1000}
           >
-            Jarriola
+            RestaurantJS
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -32,11 +32,9 @@ const NavigationBar = () => {
               <Link to="/blog" className="nav-link">
                 Blog
               </Link>
-
-              <NavDropdown title="More" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action 1</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Action 2</NavDropdown.Item>
-              </NavDropdown>
+              <Link to="/contact" className="nav-link">
+                Contact
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

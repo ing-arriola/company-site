@@ -7,6 +7,7 @@ import About from "./Pages/About";
 import Footer from "./Components/Footer";
 import Services from "./Pages/Services";
 import Blog from "./Pages/Blog";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/blog" component={Blog} />
+          <Route path="/contact" component={Contact} />
         </Switch>
       </BrowserRouter>
 

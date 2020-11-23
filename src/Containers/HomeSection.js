@@ -8,7 +8,7 @@ const HomeSection = () => {
     <section>
       <SectionHeader
         background={lights}
-        title="Are you ready to get started?"
+        title="We're open 24/7 "
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non
         temporibus impedit natus, possimus molestias excepturi officiis
         libero iure cupiditate voluptatem ullam quod sequi delectus?"

@@ -16,7 +16,7 @@ const Carrousel = () => {
         />
 
         <Carousel.Caption className="d-none d-lg-block">
-          <h3 className="display-3">First slide label</h3>
+          <h3 className="display-3">Visit us today!</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -29,7 +29,7 @@ const Carrousel = () => {
         />
 
         <Carousel.Caption className="d-none d-lg-block">
-          <h3 className="display-3">Second slide label</h3>
+          <h3 className="display-3">A great experience is waiting for you</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -42,7 +42,7 @@ const Carrousel = () => {
         />
 
         <Carousel.Caption className="d-none d-lg-block">
-          <h3 className="display-3">Third slide label</h3>
+          <h3 className="display-3">We have the best food</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>

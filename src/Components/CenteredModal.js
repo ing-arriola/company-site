@@ -16,7 +16,7 @@ const CenteredModal = (props) => {
           title="video"
           width="100%"
           height="315"
-          src="https://www.youtube.com/embed/4bc2V8GVaB4?autoplay=1"
+          src="https://www.youtube.com/embed/NMoGUJPTzgo?autoplay=1"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
