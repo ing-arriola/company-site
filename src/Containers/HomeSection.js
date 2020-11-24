@@ -1,6 +1,6 @@
 import React from "react";
 import lights from "../Assets/lights.jpg";
-import lapImage from "../Assets/laptop.png";
+import lapImage from "../Assets/enjoy.jpg";
 import SectionHeader from "../Components/SectionHeader";
 import SectionBody from "../Components/SectionBody";
 const HomeSection = () => {
@@ -14,7 +14,7 @@ const HomeSection = () => {
         libero iure cupiditate voluptatem ullam quod sequi delectus?"
         outline="outline-primary"
       />
-      <SectionBody image={lapImage} title="Lorem Ipsum" />
+      <SectionBody image={lapImage} title="Enjoy the best service" />
     </section>
   );
 };

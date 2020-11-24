@@ -2,7 +2,7 @@ import React from "react";
 import SectionHeader from "../Components/SectionHeader";
 import servicesImage from "../Assets/image3.jpg";
 import FormContainer from "../Containers/FormContainer";
-
+import StaffContainer from "../Containers/StaffContainer";
 const Services = () => {
   return (
     <div className="mt-5">
@@ -13,6 +13,7 @@ const Services = () => {
         outline="outline-primary"
       />
       <FormContainer />
+      <StaffContainer />
     </div>
   );
 };
