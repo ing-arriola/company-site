@@ -1,9 +1,9 @@
 import React from "react";
-import Form from "../Components/Form";
+import ContactForm from "../Components/ContactForm";
 const FormContainer = () => {
   return (
     <section className="py-3">
-      <Form />
+      <ContactForm />
     </section>
   );
 };
