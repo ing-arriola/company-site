@@ -4,7 +4,7 @@ import { Container, Col, Row, Button, Image } from "react-bootstrap";
 const SectionBody = ({ title, image }) => {
   return (
     <div>
-      <Container>
+      <Container className="my-5">
         <Row>
           <Col md={6} className="align-self-center">
             <h3 className="display-4">{title}</h3>

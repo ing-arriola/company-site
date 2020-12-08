@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../Components/SectionHeader";
-import servicesImage from "../Assets/image3.jpg";
+import servicesImage from "../Assets/services.jpg";
 import ColumnsSection from "../Components/Services/ColumnsSection";
 import FaqContainer from "../Containers/FaqContainer";
 

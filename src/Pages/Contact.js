@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../Components/SectionHeader";
-import servicesImage from "../Assets/image3.jpg";
+import servicesImage from "../Assets/contact.jpg";
 import FormContainer from "../Containers/FormContainer";
 import StaffContainer from "../Containers/StaffContainer";
 const Services = () => {

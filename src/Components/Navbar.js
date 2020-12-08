@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 const NavigationBar = () => {
   return (
     <div>
-      <Navbar bg="light" variant="light" expand="lg" fixed="top">
+      <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
         <Container>
           <Link
             className="navbar-brand cursor nav-link"

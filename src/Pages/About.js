@@ -1,6 +1,6 @@
 import React from "react";
 import SectionHeader from "../Components/SectionHeader";
-import image from "../Assets/image1.jpg";
+import image from "../Assets/about.jpg";
 import TextImage from "../Components/About/TextImage";
 import IconSection from "../Containers/IconSection";
 import QuoteCarrousel from "../Components/QuouteCarrousel";
@@ -16,9 +16,21 @@ const About = () => {
       <TextImage />
       <IconSection
         icons={[
-          { name: "FaRegBuilding", title: "Working", background: "bg-danger" },
-          { name: "FaBullhorn", title: "Storage", background: "bg-dark" },
-          { name: "FaCommentAlt", title: "Buying", background: "bg-danger" },
+          {
+            name: "FaRegBuilding",
+            title: "We have the best location",
+            background: "bg-danger",
+          },
+          {
+            name: "FaBullhorn",
+            title: "Awesome live music",
+            background: "bg-dark",
+          },
+          {
+            name: "FaCommentAlt",
+            title: "Your opinion is valuable",
+            background: "bg-danger",
+          },
         ]}
         color="text-light"
       />
@@ -30,7 +42,11 @@ const About = () => {
             title: "Affordable",
             background: "bg-danger",
           },
-          { name: "FaCoffee", title: "Take it easy", background: "bg-dark" },
+          {
+            name: "FaCoffee",
+            title: "The best coffee",
+            background: "bg-dark",
+          },
         ]}
         color="text-light"
       />

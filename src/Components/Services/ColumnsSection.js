@@ -11,7 +11,7 @@ const ColumnsSection = ({ features }) => {
               <Card.Header className="bg-dark text-light ">
                 <h3>Service Plan</h3>
               </Card.Header>
-              <h4 className="mt-1">$9.99/ Month</h4>
+              <h4 className="mt-1">$9.99/ person</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
                 blanditiis?

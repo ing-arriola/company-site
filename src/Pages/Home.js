@@ -12,9 +12,21 @@ const Home = () => {
       <Carrousel />
       <IconSection
         icons={[
-          { name: "FaCog", title: "Working", background: "bg-light" },
-          { name: "FaCloud", title: "Storage", background: "bg-light" },
-          { name: "FaCartPlus", title: "Buying", background: "bg-light" },
+          {
+            name: "FaHamburger",
+            title: "Enjoy Fast food",
+            background: "bg-light",
+          },
+          {
+            name: "FaBirthdayCake",
+            title: "Free lunch in your birthday",
+            background: "bg-light",
+          },
+          {
+            name: "FaFish",
+            title: "Delicious seafood",
+            background: "bg-light",
+          },
         ]}
         color="text-dark"
         padding="py-5"
